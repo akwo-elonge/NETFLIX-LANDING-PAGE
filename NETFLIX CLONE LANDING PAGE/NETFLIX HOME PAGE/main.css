@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(31, 30, 30);
+    background: url(./images/netflix-background-image-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.all{
+    background:linear-gradient(to top, rgba(0,0,0,0), #151515), url('./images/f-1.jpg');
+}
+.header{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.header-left{
+    color: red;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+.header-left:hover{
+    color: rgb(137, 62, 235);
+}
+.header-right{
+    padding-top: 20px;
+    margin-left: 1100px;
+    display: flex;
+}
+.leftbox{
+    margin-top: 40px;
+    height: 25px;
+    width: 100px;
+    background-color: black;
+    align-content: center;
+    border: 1px solid white;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.leftbox:hover{
+    padding-left: 18px;
+    width: 102px;
+}
+.rightbox{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 25px;
+    width: 55px;  
+    background-color: red;
+    align-content: center;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.rightbox:hover{
+    padding-left: 25px;
+    width: 110px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+h2{
+    font-size: 50px;
+}
+.main-text{
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+}
+.main-text p{
+    padding-left: 300px;
+    font-size: 20px;
+}
+.ready-text{
+    padding-left: 160px;
+    font-size: 20px;
+}
+.main-bottom{
+    display: flex;
+}
+.email{
+    width: 260px;
+    height: 30px;
+    border: 2px solid white;
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    border: none
+}
+.bottom-right{
+    background-color: red;
+    width: 100px;
+    height: 26px;
+    margin-left: 20px;
+    border: 2px solid red;
+    font-weight: 600;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    transition: all right 0.7s ease-in-out;
+}
+.bottom-right a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
